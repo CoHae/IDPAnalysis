@@ -1,11 +1,13 @@
 Package: IDPAnalysis
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Analysis of Intrinsic Disorder in Proteins
+Version: 0.0.0.9000
+Author: Cornelia Haerle
+Maintainer: chaerle@mail.usf.edu
+Description: Analyzing Intrinsically Disordered Proteins (IDPs) using the common 
+    disorder predictors VLXT, VSL2 and the meta predictor PONDRFIT. This package
+    will produce graphs to visually compare the distribution and the extend of
+    disorder in a given group of proteins.
+License: CC0
 Encoding: UTF-8
 LazyData: true
