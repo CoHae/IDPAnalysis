@@ -16,5 +16,6 @@ scatterplot3d(dataset$PONDRFIT, dataset$VLXT, dataset$VSL2,
               ylim=c(0,100),
               zlim=c(0,100)
 )
-dataset$PONDRFIT <- dataset$PONDRFIT/100
+# don't do the next statement bc the return of a function is its last assessment
+# dataset$PONDRFIT <- dataset$PONDRFIT/100
 }

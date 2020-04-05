@@ -42,4 +42,7 @@ legend("topleft", legend = levels(dataset$DM), cex = 0.7,
        #       bty = "n", #bg = "transparent",
        col = c("tomato", "steelblue", "palegreen3", "yellow"), pch = 16)
 #      ,inset = -0.50, xpd = TRUE, horiz = TRUE)
+
+# don't do the next statement bc the return of a function is its last assessment
+# $PONDRFIT <- dataset$PONDRFIT/100
 }
