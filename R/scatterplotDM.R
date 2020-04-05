@@ -1,9 +1,9 @@
-#' Displays VLXT, VSL2 and PONDRFIT next to each other for the 3 groups
+#' Displays VLXT, VSL2 and PONDRFIT in a 3 dimensional scatterplot incl disease and or mutagenesis distinction
 #'
 #' @param dataset A dataset
 #' @return 3 dimensional scatterplot
 #' @examples
-#' scatterplDM(TPRdataset)
+#' scatterpl3DDM(TPRdataset)
 
 
 scatterpl3DDM <- function(dataset) {
