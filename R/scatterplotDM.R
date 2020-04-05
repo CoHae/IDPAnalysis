@@ -1,13 +1,13 @@
 #' Displays VLXT, VSL2 and PONDRFIT next to each other for the 3 groups
 #'
 #' @param dataset A dataset
-#' @return A side by side histogram
+#' @return 3 dimensional scatterplot
 #' @examples
 #' scatterplDM(TPRdataset)
 
 
 scatterpl3DDM <- function(dataset) {
-dataset <- TPRdataset[order(TPRdataset$DM),]
+dataset <- dataset[order(dataset$DM),]
 
 #PONDRFIT% is as 0.2 in the dataset, I make it 20.
 dataset$PONDRFIT <- dataset$PONDRFIT*100
